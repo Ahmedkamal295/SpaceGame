@@ -15,10 +15,15 @@
 		041EAF412509B04E00ABE88F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 041EAF3F2509B04E00ABE88F /* Main.storyboard */; };
 		041EAF432509B05500ABE88F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 041EAF422509B05500ABE88F /* Assets.xcassets */; };
 		041EAF462509B05500ABE88F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 041EAF442509B05500ABE88F /* LaunchScreen.storyboard */; };
+		041EAF4F2509B10E00ABE88F /* explosion.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 041EAF4D2509B10E00ABE88F /* explosion.mp3 */; };
+		041EAF502509B10E00ABE88F /* torpedo.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 041EAF4E2509B10E00ABE88F /* torpedo.mp3 */; };
+		041EAF522509B29000ABE88F /* spark.png in Resources */ = {isa = PBXBuildFile; fileRef = 041EAF512509B29000ABE88F /* spark.png */; };
+		041EAF552509B34400ABE88F /* Explosion.sks in Resources */ = {isa = PBXBuildFile; fileRef = 041EAF532509B34400ABE88F /* Explosion.sks */; };
+		041EAF562509B34400ABE88F /* Starfield.sks in Resources */ = {isa = PBXBuildFile; fileRef = 041EAF542509B34400ABE88F /* Starfield.sks */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		041EAF322509B04E00ABE88F /* Game.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Game.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		041EAF322509B04E00ABE88F /* SpaceGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpaceGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		041EAF352509B04E00ABE88F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		041EAF372509B04E00ABE88F /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
 		041EAF392509B04E00ABE88F /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
@@ -28,6 +33,11 @@
 		041EAF422509B05500ABE88F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		041EAF452509B05500ABE88F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		041EAF472509B05500ABE88F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		041EAF4D2509B10E00ABE88F /* explosion.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = explosion.mp3; sourceTree = "<group>"; };
+		041EAF4E2509B10E00ABE88F /* torpedo.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = torpedo.mp3; sourceTree = "<group>"; };
+		041EAF512509B29000ABE88F /* spark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spark.png; sourceTree = "<group>"; };
+		041EAF532509B34400ABE88F /* Explosion.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Explosion.sks; sourceTree = "<group>"; };
+		041EAF542509B34400ABE88F /* Starfield.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Starfield.sks; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +62,7 @@
 		041EAF332509B04E00ABE88F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				041EAF322509B04E00ABE88F /* Game.app */,
+				041EAF322509B04E00ABE88F /* SpaceGame.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -63,9 +73,14 @@
 				041EAF352509B04E00ABE88F /* AppDelegate.swift */,
 				041EAF372509B04E00ABE88F /* GameScene.sks */,
 				041EAF392509B04E00ABE88F /* Actions.sks */,
+				041EAF532509B34400ABE88F /* Explosion.sks */,
+				041EAF542509B34400ABE88F /* Starfield.sks */,
+				041EAF512509B29000ABE88F /* spark.png */,
 				041EAF3B2509B04E00ABE88F /* GameScene.swift */,
 				041EAF3D2509B04E00ABE88F /* GameViewController.swift */,
 				041EAF3F2509B04E00ABE88F /* Main.storyboard */,
+				041EAF4D2509B10E00ABE88F /* explosion.mp3 */,
+				041EAF4E2509B10E00ABE88F /* torpedo.mp3 */,
 				041EAF422509B05500ABE88F /* Assets.xcassets */,
 				041EAF442509B05500ABE88F /* LaunchScreen.storyboard */,
 				041EAF472509B05500ABE88F /* Info.plist */,
@@ -90,7 +105,7 @@
 			);
 			name = Game;
 			productName = Game;
-			productReference = 041EAF322509B04E00ABE88F /* Game.app */;
+			productReference = 041EAF322509B04E00ABE88F /* SpaceGame.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -131,11 +146,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				041EAF502509B10E00ABE88F /* torpedo.mp3 in Resources */,
+				041EAF4F2509B10E00ABE88F /* explosion.mp3 in Resources */,
+				041EAF562509B34400ABE88F /* Starfield.sks in Resources */,
 				041EAF412509B04E00ABE88F /* Main.storyboard in Resources */,
 				041EAF382509B04E00ABE88F /* GameScene.sks in Resources */,
 				041EAF432509B05500ABE88F /* Assets.xcassets in Resources */,
+				041EAF522509B29000ABE88F /* spark.png in Resources */,
 				041EAF462509B05500ABE88F /* LaunchScreen.storyboard in Resources */,
 				041EAF3A2509B04E00ABE88F /* Actions.sks in Resources */,
+				041EAF552509B34400ABE88F /* Explosion.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -298,8 +318,8 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.Ahmedkamal.Game;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Ahmedkamal.SpaceGame;
+				PRODUCT_NAME = SpaceGame;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -315,8 +335,8 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.Ahmedkamal.Game;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Ahmedkamal.SpaceGame;
+				PRODUCT_NAME = SpaceGame;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
